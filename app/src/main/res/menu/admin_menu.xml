@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+    <item
+        android:title="Menu"
+        android:icon="@drawable/menu"
+        android:id="@+id/admin_menu"/>
+
+    <item
+        android:title="Add Product Details"
+        android:icon="@drawable/add_product"
+        android:id="@+id/admin_add_product"/>
+
+    <item
+        android:title="Remove Product"
+        android:icon="@drawable/remove_product"
+        android:id="@+id/admin_remove_product"/>
+
+    <item
+        android:title="Received Order"
+        android:icon="@drawable/received_order"
+        android:id="@+id/admin_received_order"/>
+
+    <item
+        android:title="Date wise Bill"
+        android:icon="@drawable/bill"
+        android:id="@+id/admin_datewise_bill"/>
+
+    <item
+        android:title="Logout"
+        android:icon="@drawable/logout"
+        android:id="@+id/admin_logout"/>
+
+</group>
+
+</menu>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "551963757050",
+    "firebase_url": "https://the-restaurant-7b539.firebaseio.com",
+    "project_id": "the-restaurant-7b539",
+    "storage_bucket": "the-restaurant-7b539.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551963757050:android:c72c6588d4b9a1c249fc43",
+        "android_client_info": {
+          "package_name": "com.example.therestaurant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551963757050-3sovp2hpmmo13g4bjbc5sgvd9b7okp8k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.therestaurant",
+            "certificate_hash": "e4292da05788c326fc26019b4045ea8c8981f9c2"
+          }
+        },
+        {
+          "client_id": "551963757050-21a7fljurko64dlprcbelr8gito8hbkm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIWdOd-E4jqZrlEPnuTkNiFr-owjPQAis"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551963757050-21a7fljurko64dlprcbelr8gito8hbkm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

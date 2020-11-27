@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Waiter.WaiterProductDetailsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/waiter_toolbar_product_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        >
+    </androidx.appcompat.widget.Toolbar>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/waiter_product_image_details"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/waiter_product_name_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/waiter_product_image_details"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Product Name"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/waiter_product_description_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/waiter_product_name_details"
+        android:text="Product Description"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/waiter_product_price_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/waiter_product_description_details"
+        android:text="Product Price"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+        android:id="@+id/waiter_numberBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="6dp"
+        app:textSize="16dp"
+        app:textColor="@color/colorAccent"
+        app:initialNumber="1"
+        app:finalNumber="50"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/waiter_product_price_details"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        >
+
+    </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/waiter_select_table"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:hint="Choose Table"
+            android:textColorHint="@color/colorAccent"
+            android:textSize="20sp"/>
+        <Spinner
+            android:id="@+id/waiter_spinner"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/waiter_pd_add_to_cart_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Add to Cart"
+        android:textColor="@color/colorAccent"
+        android:textSize="18dp" />
+
+</LinearLayout>

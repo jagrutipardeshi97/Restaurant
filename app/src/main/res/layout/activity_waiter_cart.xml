@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Waiter.WaiterCartActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/waiter_toolbar_cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        >
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:id="@+id/waiter_rlll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/waiter_total_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Total Price = "
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/waiter_cart_list"
+        android:layout_width="match_parent"
+        android:layout_height="570dp"
+        android:layout_below="@+id/waiter_rlll"
+        android:layout_above="@+id/waiter_next_process_btn">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/waiter_next_process_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimaryDark"
+        android:text="Next"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        />
+
+</LinearLayout>

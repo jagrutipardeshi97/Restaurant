@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="tables"
+        android:icon="@drawable/restaurant_table"
+        android:id="@+id/waiter_tables"/>
+
+    <item
+        android:title="Cart List"
+        android:icon="@drawable/cart"
+        android:id="@+id/waiter_cart"/>
+
+    <item
+        android:title="Logout"
+        android:icon="@drawable/logout"
+        android:id="@+id/waiter_logout"/>
+
+</menu>

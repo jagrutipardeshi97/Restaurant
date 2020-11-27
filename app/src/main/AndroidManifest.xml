@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.therestaurant">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Waiter.WaiterCartActivity"></activity>
+        <activity android:name=".Waiter.WaiterProductDetailsActivity" />
+        <activity android:name=".Waiter.WaiterNavigationActivity" />
+        <activity android:name=".Waiter.WaiterRegistrationActivity" />
+        <activity android:name=".Admin.AdminRemoveProductActivity" />
+        <activity android:name=".Admin.AdminRegistrationActivity" />
+        <activity android:name=".Admin.AdminReceivedOrderActivity" />
+        <activity android:name=".Admin.AdminNavigationActivity" />
+        <activity android:name=".Admin.AdminDateWiseBillActivity" />
+        <activity android:name=".Admin.AdminAddProductActivity" />
+        <activity android:name=".Waiter.WaiterLoginActivity" />
+        <activity android:name=".Admin.AdminLoginActivity" />
+        <activity android:name=".SubMainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
